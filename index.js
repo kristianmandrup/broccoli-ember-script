@@ -15,9 +15,9 @@ EmberScriptFilter.prototype.extensions = ['em']
 EmberScriptFilter.prototype.targetExtension = 'js'
 
 EmberScriptFilter.prototype.processString = function (string) {
-  var emberScriptOptions = { bare: this.bare }
+  var emberScriptOptions = { bare: this.bare, js: true, optimise: false }
   try {
-    return emberScript.compile(string, emberScriptOptions)
+    return emberScript.em2js(string, emberScriptOptions)
   } catch (err) {
     err.line = err.location && err.location.first_line
     err.column = err.location && err.location.first_column

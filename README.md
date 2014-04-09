@@ -1,6 +1,6 @@
 # broccoli-ember-script
 
-A CoffeeScript filter for Broccoli.
+A EmberScript filter for [Broccoli](https://github.com/joliss/broccoli). This plugin simply compiles EmberScript to JS for Broccoli to further process, allowing Broccoli to control things such as optimization.
 
 ## Installation
 
