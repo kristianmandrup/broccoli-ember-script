@@ -1,7 +1,7 @@
 {
   "name": "broccoli-ember-script",
   "description": "EmberScript filter for Broccoli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Adam Radabaugh <adam@walkingtoast.com>",
   "main": "index.js",
   "license": "MIT",
