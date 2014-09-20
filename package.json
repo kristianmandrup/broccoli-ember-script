@@ -16,7 +16,7 @@
     "javascript"
   ],
   "dependencies": {
-    "ember-script": "git://github.com/ghempton/ember-script.git#HEAD",
+    "ember-script": "git://github.com/kristianmandrup/ember-script.git#mc",
     "broccoli-filter": "^0.1.0"
   }
 }
