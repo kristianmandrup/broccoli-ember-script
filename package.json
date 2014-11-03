@@ -16,7 +16,7 @@
     "javascript"
   ],
   "dependencies": {
-    "ember-script": "git://github.com/kristianmandrup/ember-script.git#mc",
+    "ember-script": "git://github.com/kristianmandrup/ember-script.git#multicompile",
     "broccoli-filter": "^0.1.0"
   }
 }
