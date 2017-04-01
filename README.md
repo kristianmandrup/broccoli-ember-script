@@ -1,5 +1,7 @@
 # broccoli-ember-script
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kristianmandrup/broccoli-ember-script.svg)](https://greenkeeper.io/)
+
 A EmberScript filter for [Broccoli](https://github.com/joliss/broccoli). This plugin simply compiles EmberScript to JS for Broccoli to further process, allowing Broccoli to control things such as optimization.
 
 ## Broccoli filter for emberscript with ES6 and Ember CLI
